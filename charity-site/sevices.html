@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Service - Kashi Sanskriti Charitable Trust</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;900&amp;family=Noto+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#6c2bee",
+                        "background-light": "#f9f8fc",
+                        "background-dark": "#161022",
+                        "accent-saffron": "#FFF3E0",
+                        "donate-green": "#2E7D32", 
+                    },
+                    fontFamily: {
+                        "display": ["Lexend", "sans-serif"],
+                        "body": ["Noto Sans", "sans-serif"],
+                    },
+                    borderRadius: {"DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-[#120d1b] dark:text-white font-display overflow-x-hidden antialiased selection:bg-primary/20 selection:text-primary">
+<div class="relative flex flex-col w-full">
+<!-- Top Navigation -->
+<header class="sticky top-0 z-50 w-full bg-white/90 dark:bg-[#161022]/90 backdrop-blur-md border-b border-[#ebe7f3] dark:border-gray-800">
+<div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-16 sm:h-20">
+<!-- Logo -->
+<div class="flex items-center gap-3">
+    <a href="index.html">
+<div class="size-8 text-primary flex items-center justify-center bg-primary/10 rounded-full">
+                    <img src="/images/cropped-logo.png" alt="">
+</div>
+</a>
+<h1 class="text-[#120d1b] dark:text-white text-lg sm:text-xl font-bold tracking-tight">
+    Kashi Sanskriti Charitable Trust
+</h1>
+</div>
+<!-- Desktop Nav -->
+            <nav class="hidden md:flex items-center gap-8">
+                <a class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary transition-colors" href="index.html">Home</a>
+                <a class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary transition-colors" href="about.html">About</a>
+                <a class="text-sm font-bold text-primary dark:text-primary-400" href="sevices.html">Service</a>
+                <a class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary transition-colors" href="gallery.html">Gallery</a>
+                <a class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary transition-colors" href="donate.html">Donate</a>
+            </nav>
+<!-- CTA Button -->
+<div class="hidden md:block">
+<button class="flex items-center justify-center h-10 px-6 rounded-full bg-donate-green text-white text-sm font-bold shadow-md hover:bg-opacity-90 transition-all hover:shadow-lg transform hover:-translate-y-0.5">
+                            Donate Now
+                        </button>
+</div>
+            <!-- Mobile Menu Icon (Placeholder) -->
+            <div class="md:hidden text-gray-600 dark:text-gray-300">
+                <button id="menu-button" aria-label="Toggle menu">
+                    <span class="material-symbols-outlined text-2xl">menu</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div id="mobile-menu" class="hidden md:hidden bg-white/95 border-t border-gray-100">
+    <div class="px-4 py-4 flex flex-col gap-3">
+        <a class="text-sm font-medium text-gray-600 dark:text-gray-300" href="index.html">Home</a>
+        <a class="text-sm font-medium text-gray-600 dark:text-gray-300" href="about.html">About</a>
+        <a class="text-sm font-medium text-gray-600 dark:text-gray-300" href="sevices.html">Service</a>
+        <a class="text-sm font-medium text-gray-600 dark:text-gray-300" href="gallery.html">Gallery</a>
+        <a class="text-sm font-medium text-gray-600 dark:text-gray-300" href="donate.html">Donate</a>
+    </div>
+</div>
+</div>
+</div>
+</header>
+<!-- Breadcrumbs -->
+<div class="w-full bg-[#fcfbfd] dark:bg-background-dark border-b border-[#f0eff5] dark:border-gray-800">
+<div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-3">
+<div class="flex items-center gap-2 text-sm">
+<a class="text-primary/70 hover:text-primary font-medium transition-colors" href="#">Home</a>
+<span class="material-symbols-outlined text-[16px] text-gray-400">chevron_right</span>
+<span class="text-gray-800 dark:text-gray-200 font-medium">Services</span>
+</div>
+</div>
+</div>
+<!-- Hero Section -->
+<section class="relative w-full bg-[#f9f8fc] dark:bg-background-dark py-6 lg:py-12">
+    <div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="relative overflow-hidden rounded-2xl bg-primary text-white shadow-2xl">
+<!-- Background Image with Overlay -->
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Group of diverse children smiling and looking at a globe" ></div>
+<div class="absolute inset-0 bg-gradient-to-r from-primary/90 to-primary/40 mix-blend-multiply"></div>
+<div class="absolute inset-0 bg-black/20"></div>
+<div class="relative z-10 flex flex-col items-start justify-center p-6 md:p-10 lg:p-12 max-w-3xl">
+<span class="inline-block px-3 py-1 mb-4 text-xs font-bold tracking-wider uppercase bg-white/10 backdrop-blur-sm rounded-full border border-white/20 text-white">
+                            Our Impact Areas
+                        </span>
+<h1 class="text-4xl md:text-5xl lg:text-6xl font-black tracking-tight leading-[1.1] mb-6 drop-shadow-sm">
+                            Nurturing Dreams,<br/>One Child at a Time.
+                        </h1>
+<p class="text-lg md:text-xl text-white/90 font-light leading-relaxed mb-8 max-w-xl">
+                            Our holistic programs are designed to break the cycle of poverty through education, health, and community empowerment.
+                        </p>
+<div class="flex flex-wrap gap-4">
+<button class="h-12 px-8 rounded-full bg-white text-primary text-base font-bold shadow-lg hover:bg-gray-50 transition-colors flex items-center gap-2">
+<span class="material-symbols-outlined text-[20px]">play_circle</span>
+                                Watch Our Story
+                            </button>
+<button class="h-12 px-8 rounded-full bg-donate-green text-white text-base font-bold shadow-lg hover:bg-opacity-90 transition-colors">
+                                Support a Cause
+                            </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Grid -->
+<main class="flex-grow w-full py-12 lg:py-20 bg-white dark:bg-[#161022]">
+<div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col items-center text-center mb-16">
+<h2 class="text-3xl md:text-4xl font-bold text-[#120d1b] dark:text-white mb-4 tracking-tight">
+                        How We Create Change
+                    </h2>
+<p class="text-lg text-gray-600 dark:text-gray-400 max-w-2xl">
+                        Explore our core initiatives dedicated to providing underprivileged children with the resources they need to thrive.
+                    </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Card 1: Education Sponsorship -->
+<div class="group flex flex-col bg-[#f9f8fc] dark:bg-[#1f1a2e] rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+<div class="relative h-56 overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="Young girl writing in a notebook in a classroom" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAL0zsX1ux5oceQPGuDzBWn8RGyLXsSBQfdpQpuJQyvZGwKXFsFUzH0JfzpCFeGMAfFTOr-lgPuHrtSLaAIPy-7piDrXlRqH_X9M3KfRkLQ2pzrhx2_dk_lfD2NtJUg1dvyLsaomwNQCVJMBX6pUgIz2zxP5KwrXg7nKkoJiqAkScRm8nuG43toHVHBd0H5oBrS7MvFs1LfrGZy0n3wIz5XWuQscHTBocict41i7u7BOp8UyFm6abxiqcNVQ72S-OOPbwXDa7ZhGl-Q');"></div>
+<div class="absolute top-4 right-4 bg-white/90 dark:bg-black/60 backdrop-blur-sm p-2 rounded-full shadow-sm text-primary">
+<span class="material-symbols-outlined">school</span>
+</div>
+</div>
+<div class="flex flex-col flex-grow p-6">
+<h3 class="text-xl font-bold text-[#120d1b] dark:text-white mb-3">Education Sponsorship</h3>
+<p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-6 flex-grow">
+                                We cover tuition fees, uniforms, and mentorship to ensure uninterrupted schooling for children who risk dropping out due to financial constraints.
+                            </p>
+<div class="mt-auto pt-4 border-t border-gray-100 dark:border-gray-800 flex items-center justify-between">
+<a class="text-primary font-bold text-sm hover:underline" href="#">Read Story</a>
+<button class="h-9 px-4 bg-primary/10 hover:bg-primary/20 text-primary rounded-lg text-sm font-semibold transition-colors">
+                                    Sponsor Now
+                                </button>
+</div>
+</div>
+</div>
+<!-- Card 2: Study Material Support -->
+<div class="group flex flex-col bg-[#f9f8fc] dark:bg-[#1f1a2e] rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+<div class="relative h-56 overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="Stack of colorful textbooks and pencils on a desk" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuASgjQvAaRd9yAXs0cCbnZv_FoyCu5pYW9t7StWx8g9bYXsDkW3EDax_k84Fm0cmicHiW0NGOEEB_0q6HfksqPA9APK8aK4iUxEk_LdRWa7OkE53--0tgiBtXSU1MaZLrpkWIK76DaPNfGM-G2v-fNW9S-SWkphykQa_8logAhU25qbduoJtuwf4Kwg_PQPFQJvJd8eikV02SWoo8IvD_IZqCUQQuNdKlHt2Li-_Fx_1Q0p90glj69XEUcIhQE5SAnOAlGk7o99TBzj');"></div>
+<div class="absolute top-4 right-4 bg-white/90 dark:bg-black/60 backdrop-blur-sm p-2 rounded-full shadow-sm text-primary">
+<span class="material-symbols-outlined">menu_book</span>
+</div>
+</div>
+<div class="flex flex-col flex-grow p-6">
+<h3 class="text-xl font-bold text-[#120d1b] dark:text-white mb-3">Study Material Support</h3>
+<p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-6 flex-grow">
+                                Distributing backpacks, textbooks, and essential stationery kits to equip students with the physical tools they need to succeed in their studies.
+                            </p>
+<div class="mt-auto pt-4 border-t border-gray-100 dark:border-gray-800 flex items-center justify-between">
+<a class="text-primary font-bold text-sm hover:underline" href="#">View Kit Details</a>
+<button class="h-9 px-4 bg-primary/10 hover:bg-primary/20 text-primary rounded-lg text-sm font-semibold transition-colors">
+                                    Donate Supplies
+                                </button>
+</div>
+</div>
+</div>
+<!-- Card 3: Child Counseling -->
+<div class="group flex flex-col bg-[#f9f8fc] dark:bg-[#1f1a2e] rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+<div class="relative h-56 overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="Two people sitting talking in a supportive environment" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDKmC0roVkE6-KaQ4h1RBScb8s_ODO_ZKoQoDimPpNAvmzSBAm1l8t4V6jgpud7aBEu7Jub8gV7OlTFZ3hfRJlIJ0AqngCGDrGOvur89geV_bKs1UxVEhqvP9JXWFRiegFEeLH7mvJnGOWtf_KPpc_gbR69bRh61KcGoIcDcsxdz1uKZ0YShEM-lssgvyq5hd1Kb6w1NNL8SepmdkYmP1VQf4XbCoTDvSjSUwb7bLfjQpbPqTst3JHGYCykiMeGSi8GN7kgnO3qe6p7');"></div>
+<div class="absolute top-4 right-4 bg-white/90 dark:bg-black/60 backdrop-blur-sm p-2 rounded-full shadow-sm text-primary">
+<span class="material-symbols-outlined">psychology</span>
+</div>
+</div>
+<div class="flex flex-col flex-grow p-6">
+<h3 class="text-xl font-bold text-[#120d1b] dark:text-white mb-3">Child Counseling</h3>
+<p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-6 flex-grow">
+                                Providing a safe space and professional mental health support to help children overcome trauma, anxiety, and build emotional resilience.
+                            </p>
+<div class="mt-auto pt-4 border-t border-gray-100 dark:border-gray-800 flex items-center justify-between">
+<a class="text-primary font-bold text-sm hover:underline" href="#">Our Approach</a>
+<button class="h-9 px-4 bg-primary/10 hover:bg-primary/20 text-primary rounded-lg text-sm font-semibold transition-colors">
+                                    Support Therapy
+                                </button>
+</div>
+</div>
+</div>
+<!-- Card 4: Nutrition & Health Camps -->
+<div class="group flex flex-col bg-[#f9f8fc] dark:bg-[#1f1a2e] rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+<div class="relative h-56 overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="Happy child eating a healthy fruit meal" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAsobkK8dduwxRN1UoQiwX-TtSkjM4JOlx3HYbzD6GL_-XVtvItBEala_U2qbUybFU832SPtbW59-OGg-h_ea7tbK16Xl4bIAiFjj39yftqHoLJplicV-i7Y7qQxG9Go8VdML8yFHfLyKqGHwlGNdVG2ErFrc0lh4VqDMFH3SHgHvnS7SsSHIVK0cGu7eWUp2WKMlvQHtZdirAuFLFOkYz6JF_BmsHOyhifv6czqWFFP5zxxNbWk0p3CeByw5FvlTnjc_ej3T4CWnrm');"></div>
+<div class="absolute top-4 right-4 bg-white/90 dark:bg-black/60 backdrop-blur-sm p-2 rounded-full shadow-sm text-primary">
+<span class="material-symbols-outlined">local_dining</span>
+</div>
+</div>
+<div class="flex flex-col flex-grow p-6">
+<h3 class="text-xl font-bold text-[#120d1b] dark:text-white mb-3">Nutrition &amp; Health Camps</h3>
+<p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-6 flex-grow">
+                                Regular health checkups and nutritious meal distribution programs to combat malnutrition and ensure physical well-being.
+                            </p>
+<div class="mt-auto pt-4 border-t border-gray-100 dark:border-gray-800 flex items-center justify-between">
+<a class="text-primary font-bold text-sm hover:underline" href="#">Health Reports</a>
+<button class="h-9 px-4 bg-primary/10 hover:bg-primary/20 text-primary rounded-lg text-sm font-semibold transition-colors">
+                                    Provide Meals
+                                </button>
+</div>
+</div>
+</div>
+<!-- Card 5: Community Awareness -->
+<div class="group flex flex-col bg-[#f9f8fc] dark:bg-[#1f1a2e] rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+<div class="relative h-56 overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="Community gathering with people discussing outdoors" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC5Xn-D5Gu3T_EYt7b-YNV2HJBakIRP1qort1tumkYeeRrkZorhRl94tl_Ux35r9dz0NcJfcVeQCRs0P57wx8q8ayikgkEQozWZ6ZkPawSOb2miVR_Tvn6YRTxpHHBrPGZk7nJh95lExbFMXqveBRrtC76WDDEMOH8a9-q9G7llNbA7wRROfB9mlsWQ4g5ZzG7Nu8_7shVW_jdMnN7qszHwY7YQkNTpzZMcgjZn_USuwNgmJttFgyi0lVemxnOmm5sPRpbGk5J3f76M');"></div>
+<div class="absolute top-4 right-4 bg-white/90 dark:bg-black/60 backdrop-blur-sm p-2 rounded-full shadow-sm text-primary">
+<span class="material-symbols-outlined">groups</span>
+</div>
+</div>
+<div class="flex flex-col flex-grow p-6">
+<h3 class="text-xl font-bold text-[#120d1b] dark:text-white mb-3">Community Awareness</h3>
+<p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-6 flex-grow">
+                                Workshops for parents and community leaders on child rights, hygiene, and the importance of education to create a supportive environment.
+                            </p>
+<div class="mt-auto pt-4 border-t border-gray-100 dark:border-gray-800 flex items-center justify-between">
+<a class="text-primary font-bold text-sm hover:underline" href="#">Learn More</a>
+<button class="h-9 px-4 bg-primary/10 hover:bg-primary/20 text-primary rounded-lg text-sm font-semibold transition-colors">
+                                    Volunteer
+                                </button>
+</div>
+</div>
+</div>
+<!-- Card 6: Skill Development -->
+<div class="group flex flex-col bg-[#f9f8fc] dark:bg-[#1f1a2e] rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+<div class="relative h-56 overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="Students working on computers in a lab" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD7rR8g3UF2V0PiEVSLNfgar3g4-IPotTBeF2S4c-uVfn3xN9HQc25Q63pa6NPU4O8DkS3gaU4ni7O5Evj5aN07qfZwVEH9iPZ1tmjREHOy2c6h59z0oxLyCeX6xw-hBaWP7YtCsjCOtkxqMG95z0nuhmNvEzCqw-w1gPca7K3ifJ91L0zEAeDDBb88jJOxcgvEvxSBNjuWd6m6KDT3oLedX24zGnAPPIa-pqqwU4KAvQpOHZAtX1rKQ_3-DGr1IsMu9j-nLfkpLRJL');"></div>
+<div class="absolute top-4 right-4 bg-white/90 dark:bg-black/60 backdrop-blur-sm p-2 rounded-full shadow-sm text-primary">
+<span class="material-symbols-outlined">computer</span>
+</div>
+</div>
+<div class="flex flex-col flex-grow p-6">
+<h3 class="text-xl font-bold text-[#120d1b] dark:text-white mb-3">Skill Development</h3>
+<p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-6 flex-grow">
+                                Vocational training and digital literacy classes for adolescents to equip them with job-ready skills for a brighter future.
+                            </p>
+<div class="mt-auto pt-4 border-t border-gray-100 dark:border-gray-800 flex items-center justify-between">
+<a class="text-primary font-bold text-sm hover:underline" href="#">Program Details</a>
+<button class="h-9 px-4 bg-primary/10 hover:bg-primary/20 text-primary rounded-lg text-sm font-semibold transition-colors">
+                                    Support Training
+                                </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- CTA Section -->
+<section class="w-full bg-primary/5 dark:bg-primary/10 border-t border-primary/10">
+<div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20 text-center">
+<div class="max-w-3xl mx-auto">
+<div class="inline-flex items-center justify-center p-3 bg-white dark:bg-white/10 rounded-full shadow-sm mb-6">
+<span class="material-symbols-outlined text-primary text-3xl">favorite</span>
+</div>
+<h2 class="text-3xl md:text-4xl font-bold text-[#120d1b] dark:text-white mb-6">
+                        Your small contribution can spark a big change.
+                    </h2>
+<p class="text-lg text-gray-600 dark:text-gray-300 mb-10 leading-relaxed">
+                        Join hands with us to provide a better future for children in need. Whether you donate, volunteer, or spread the word, every action counts.
+                    </p>
+<div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+<button class="w-full sm:w-auto px-8 h-12 rounded-xl bg-donate-green text-white font-bold text-lg shadow-lg hover:bg-opacity-90 hover:-translate-y-0.5 transition-all">
+                            Donate Now
+                        </button>
+<button class="w-full sm:w-auto px-8 h-12 rounded-xl bg-white dark:bg-white/10 text-primary dark:text-white border border-primary/20 dark:border-white/20 font-bold text-lg shadow-sm hover:bg-gray-50 dark:hover:bg-white/20 hover:-translate-y-0.5 transition-all">
+                            Become a Volunteer
+                        </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-white dark:bg-background-dark border-t border-[#ebe7f3] dark:border-gray-800">
+<div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-12">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+<div class="col-span-1 md:col-span-2">
+<div class="flex items-center gap-2 mb-4">
+<span class="material-symbols-outlined text-primary text-2xl">volunteer_activism</span>
+<h3 class="font-bold text-lg text-[#120d1b] dark:text-white">Kashi Sanskriti Charitable Trust</h3>
+</div>
+<p class="text-gray-500 dark:text-gray-400 text-sm max-w-sm mb-6">
+                            Empowering underprivileged children through education, nutrition, and holistic support. Join us in building a world where every child can dream.
+                        </p>
+<div class="flex gap-4">
+<a class="text-gray-400 hover:text-primary transition-colors" href="#">
+<span class="sr-only">Facebook</span>
+<svg class="h-6 w-6" fill="currentColor" viewbox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg>
+</a>
+<a class="text-gray-400 hover:text-primary transition-colors" href="#">
+<span class="sr-only">Twitter</span>
+<svg class="h-6 w-6" fill="currentColor" viewbox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"></path></svg>
+</a>
+<a class="text-gray-400 hover:text-primary transition-colors" href="#">
+<span class="sr-only">Instagram</span>
+<svg class="h-6 w-6" fill="currentColor" viewbox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg>
+</a>
+</div>
+</div>
+<div>
+<h4 class="font-bold text-[#120d1b] dark:text-white mb-4">Quick Links</h4>
+<ul class="space-y-2 text-sm text-gray-500 dark:text-gray-400">
+<li><a class="hover:text-primary transition-colors" href="#">About Us</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Our Services</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Impact Stories</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Financial Reports</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Careers</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-[#120d1b] dark:text-white mb-4">Get Involved</h4>
+<ul class="space-y-2 text-sm text-gray-500 dark:text-gray-400">
+<li><a class="hover:text-primary transition-colors" href="#">Donate</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Sponsor a Child</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Volunteer</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Partner with Us</a></li>
+</ul>
+</div>
+</div>
+<div class="border-t border-[#ebe7f3] dark:border-gray-800 mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-gray-400">
+<p>© 2024 Kashi Sanskriti Charitable Trust. All rights reserved.</p>
+<div class="flex gap-4">
+<a class="hover:text-primary" href="#">Privacy Policy</a>
+<a class="hover:text-primary" href="#">Terms of Service</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<script src="js/menu.js"></script>
+</body></html>
